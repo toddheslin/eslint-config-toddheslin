@@ -10,7 +10,7 @@ module.exports = {
 	extends: ['standard', 'prettier'],
 	rules: {
 		'prettier/prettier': ['error', {
-			trailingComma: true,
+			trailingComma: 'es5',
 			singleQuote: true,
 			printWidth: 120,
 			semi: false
